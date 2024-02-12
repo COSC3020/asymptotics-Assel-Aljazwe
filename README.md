@@ -18,5 +18,5 @@ I have done the first one for you, as an example.
 | $f(n) = 2n^5$              | 2            | $g(n) = 5n^2$          |     // f(n) grows much faster than g(n) due to its higher power of n.
 | $f(n)=\log_{10} \left(n^{10}\right)$ | 1  | $g(n)=n$ |                   //  After simplification, we find that f(n) grows slower than g(n)
 | $f(n)= 4n^5 $ | 2  | $g(n)= 5n^4$ |                                      // f(n) grows faster due to the higher power of n 
-| $f(n) = 10^{256}$ | 3  | $g(n) = \log n$ |                               // f(n) is a constant that doesn't grow, meanwhile g(n) grows very slowly. So f(n) is neither.
+| $f(n) = 10^{256}$ | 1  | $g(n) = \log n$ |                               // f(n) is a constant that doesn't grow, meanwhile g(n) grows very slowly. So f(n) is both big O and big Omega but not big theta of g(n)
 | $f(n)= n^2 $ | 1  | $g(n)= 2^n$ |                                        // f(n) grows polynomially, meanwhile g(n) grows exponentially.
