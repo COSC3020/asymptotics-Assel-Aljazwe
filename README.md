@@ -14,7 +14,7 @@ I have done the first one for you, as an example.
 | $f(n)=\ldots$              | compared to | $g(n)=\ldots$          |
 |----------------------------|:-----------:|------------------------|
 | $f(n)=n$                   | 1           | $g(n)=2n^2 + n$        |      // f(n) gorws slower than g(n) and will never overtake it.
-| $f(n)= 10n + 3\log_{15} n$ | 1           | $g(n)= 4n - 2\log_2 n$ |      // f(n) and g(n) grow at the same rate when considering the most significant terms for a large n.
+| $f(n)= 10n + 3\log_{15} n$ | 3          | $g(n)= 4n - 2\log_2 n$ |      // f(n) and g(n) grow at the same rate when considering the most significant terms for a large n.
 | $f(n) = 2n^5$              | 2            | $g(n) = 5n^2$          |     // f(n) grows much faster than g(n) due to its higher power of n.
 | $f(n)=\log_{10} \left(n^{10}\right)$ | 1  | $g(n)=n$ |                   //  After simplification, we find that f(n) grows slower than g(n)
 | $f(n)= 4n^5 $ | 2  | $g(n)= 5n^4$ |                                      // f(n) grows faster due to the higher power of n 
